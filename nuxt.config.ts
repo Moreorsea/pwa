@@ -33,7 +33,7 @@ export default defineNuxtConfig({
             expiration: {
               maxEntries: 10,
               maxAgeSeconds: 60 * 60 * 24 // 24 часа
-            }
+            },
           }
         },
       ]
@@ -45,6 +45,6 @@ export default defineNuxtConfig({
     }
   },
   devServer: {
-    port: 4001 // Ваш порт
+    port: 4001
   }
 })
